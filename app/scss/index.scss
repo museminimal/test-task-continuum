@@ -1,0 +1,36 @@
+@import "reset";
+@import "header";
+@import "main";
+@import "footer";
+@import "fonts";
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.dd-email {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 70px;
+
+}
+
+.text-1 {
+  margin-top: 16px;
+}
+
+.text-2 {
+  margin-top: 30px;
+}
+
+.button:hover, .to-browser:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all .3s ease;
+}
+
+
+

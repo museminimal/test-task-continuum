@@ -1,0 +1,35 @@
+.header__browser-link {
+  .to-browser {
+    opacity: 0.6;
+    font-family: 'Roboto-Medium';
+    font-size: 10px;
+    line-height: 45px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    color: #262262;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.header__logo {
+  margin: 28px 0 39px;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+}
+
+.header__title {
+  font-family: 'Multicolore';
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ff3934;
+  text-align: center;
+}

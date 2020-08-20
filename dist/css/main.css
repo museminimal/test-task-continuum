@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 100%;
+  box-sizing: border-box; }
+
+*::after, *::before {
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif; }
+
+.header__browser-link .to-browser {
+  opacity: 0.6;
+  font-family: 'Roboto-Medium';
+  font-size: 10px;
+  line-height: 45px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  color: #262262;
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+.header__logo {
+  margin: 28px 0 39px; }
+  .header__logo img {
+    display: block;
+    margin: 0 auto; }
+
+.header__title {
+  font-family: 'Multicolore';
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ff3934;
+  text-align: center; }
+
+.description-text {
+  font-family: 'Roboto-Medium';
+  font-size: 16px;
+  line-height: 24px;
+  color: #000133; }
+
+.dd-email__description {
+  background-color: #fafafa;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  padding: 31px 30px 41px;
+  margin: 31px auto 0; }
+  .dd-email__description:hover {
+    box-shadow: 0 0 60px 10.12px rgba(204, 204, 223, 0.71);
+    cursor: pointer; }
+  .dd-email__description .description__title {
+    font-family: 'Roboto-Medium';
+    font-size: 22px;
+    line-height: 1.2;
+    color: #262262;
+    text-align: center;
+    margin-bottom: 24px; }
+  .dd-email__description .description__list-title {
+    margin-bottom: 17px; }
+  .dd-email__description .description__list .description__list-item {
+    max-width: 165px;
+    list-style: disc;
+    margin: 0 auto; }
+  .dd-email__description .description__proposition {
+    font-family: 'Roboto-Medium';
+    font-size: 18px;
+    line-height: 1.2;
+    color: #262262;
+    margin: 20px 0 26px;
+    text-align: center;
+    display: block; }
+  .dd-email__description .description__buttons-inner {
+    display: flex;
+    justify-content: space-between; }
+    .dd-email__description .description__buttons-inner .buttons {
+      flex-basis: 50%; }
+    .dd-email__description .description__buttons-inner .buttons__unsubscribe {
+      width: 209px;
+      height: 51px;
+      border: 1px solid #a1a1a1;
+      border-radius: 25.700000000000003px;
+      cursor: pointer;
+      margin: 0 auto;
+      display: block;
+      outline: none; }
+      .dd-email__description .description__buttons-inner .buttons__unsubscribe span {
+        font-family: 'Multicolore';
+        font-size: 15px;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+        color: #a1a1a1; }
+    .dd-email__description .description__buttons-inner .buttons__subscribe {
+      width: 191px;
+      height: 51px;
+      background-color: #000133;
+      background-image: linear-gradient(-90deg, #ff3934 0%, #631b9c 100%);
+      border-radius: 25.700000000000003px;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      border: none;
+      cursor: pointer;
+      outline: none; }
+      .dd-email__description .description__buttons-inner .buttons__subscribe span {
+        font-family: 'Multicolore';
+        font-size: 15px;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        padding-right: 40px;
+        display: block;
+        position: relative; }
+        .dd-email__description .description__buttons-inner .buttons__subscribe span::after {
+          content: '';
+          background: url("../img/arrow.png") no-repeat center/contain;
+          position: absolute;
+          display: block;
+          height: 14px;
+          width: 12px;
+          top: 1px;
+          right: 25px; }
+
+.dd-email__footer {
+  padding: 31px 0 76px; }
+  .dd-email__footer .footer__first-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px; }
+    .dd-email__footer .footer__first-block:after {
+      content: '';
+      width: 640px;
+      height: 1px;
+      opacity: 0.2;
+      background-color: #262262;
+      position: absolute;
+      display: block;
+      bottom: 0;
+      left: 0; }
+    .dd-email__footer .footer__first-block .footer__logo {
+      flex-basis: 50%; }
+    .dd-email__footer .footer__first-block .media {
+      flex-basis: 50%; }
+      .dd-email__footer .footer__first-block .media .first-item {
+        font-family: 'Roboto-Medium';
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.075em;
+        color: #262262;
+        text-transform: uppercase; }
+      .dd-email__footer .footer__first-block .media .media-list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        float: right; }
+        .dd-email__footer .footer__first-block .media .media-list .media-list-items {
+          margin-left: 32px; }
+  .dd-email__footer .second-block {
+    padding-top: 35px; }
+    .dd-email__footer .second-block .copyright {
+      text-align: center;
+      margin-bottom: 15px; }
+    .dd-email__footer .second-block .subscribe-links {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around; }
+      .dd-email__footer .second-block .subscribe-links .subscribe-links__item {
+        text-transform: uppercase;
+        text-decoration: underline;
+        list-style: none; }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("../fonts/Roboto-Medium.eot"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto-Medium.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Multicolore';
+  src: url("../fonts/Multicolore.eot"), url("../fonts/Multicolore.woff") format("woff"), url("../fonts/Multicolore.ttf") format("truetype"), url("../fonts/Multicolore.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff; }
+
+.dd-email {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 70px; }
+
+.text-1 {
+  margin-top: 16px; }
+
+.text-2 {
+  margin-top: 30px; }
+
+.button:hover, .to-browser:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all .3s ease; }

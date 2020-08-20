@@ -1,0 +1,72 @@
+.dd-email__footer {
+  padding: 31px 0 76px;
+
+  .footer__first-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+
+    &:after {
+      content: '';
+      width: 640px;
+      height: 1px;
+      opacity: 0.2;
+      background-color: #262262;
+      position: absolute;
+      display: block;
+      bottom: 0;
+      left: 0;
+    }
+
+    .footer__logo {
+      flex-basis: 50%;
+    }
+
+    .media {
+      flex-basis: 50%;
+
+      .first-item {
+        font-family: 'Roboto-Medium';
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.075em;
+        color: #262262;
+        text-transform: uppercase;
+      }
+
+      .media-list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        float: right;
+
+        .media-list-items {
+          margin-left: 32px;
+        }
+      }
+    }
+  }
+
+  .second-block {
+    padding-top: 35px;
+    
+    .copyright {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .subscribe-links {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+
+      .subscribe-links__item {
+        text-transform: uppercase;
+        text-decoration: underline;
+        list-style: none;
+      }
+    }
+  }
+}
